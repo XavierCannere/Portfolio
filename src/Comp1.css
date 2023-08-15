@@ -1,0 +1,23 @@
+.Comp1 {
+    margin: 20px 5%;
+}
+
+.size1 {
+    font-size: 24px;
+}
+
+.size2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.contentUl {
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.contentLi {
+    margin: 10px 0px;
+}

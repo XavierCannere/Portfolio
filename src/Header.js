@@ -15,12 +15,12 @@ function Header() {
 
     return (
       <div className="Header">
-        <ul>
-            <li onClick={() => handleTriggerClick('c1')}>Accueil</li>
-            <li onClick={() => handleTriggerClick('c2')}>Expériences professionnelle</li>
-            <li onClick={() => handleTriggerClick('c3')}>Expériences scolaires</li>
-            <li onClick={() => handleTriggerClick('c4')}>Expériences personnelles</li>
-            <li onClick={() => handleTriggerClick('c5')}>Compétences</li>
+        <ul class="headerUl">
+            <li class="headerLi" onClick={() => handleTriggerClick('Accueil')}>Accueil</li>
+            <li class="headerLi" onClick={() => handleTriggerClick('c2')}>Expériences professionnelle</li>
+            <li class="headerLi" onClick={() => handleTriggerClick('c3')}>Expériences scolaires</li>
+            <li class="headerLi" onClick={() => handleTriggerClick('c4')}>Expériences personnelles</li>
+            <li class="headerLi" onClick={() => handleTriggerClick('c5')}>Compétences</li>
         </ul>
       </div>
     );

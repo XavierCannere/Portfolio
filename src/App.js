@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Content id="c1"/>
+        <Content id="Accueil"/>
         <Content id="c2"/>
         <Content id="c3"/>
         <Content id="c4"/>

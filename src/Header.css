@@ -1,6 +1,6 @@
 .Header {
     height: 6vh;
-    width: 100vw;
+    width: 100%;
     background-color: red;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
     z-index: 1000;
 }
 
-ul {
+.headerUl {
     display: flex;
     list-style-type: none;
     height: 100%;
@@ -17,13 +17,13 @@ ul {
     justify-content: center;
 }
 
-li {
+.headerLi {
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
 }
 
-li:hover {
+.headerLi:hover {
     background-color: blue;
 }
