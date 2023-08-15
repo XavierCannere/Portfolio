@@ -1,0 +1,21 @@
+.Header {
+    height: 6vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
