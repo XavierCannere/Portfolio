@@ -4,11 +4,15 @@
     background-color: red;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    height: 100%;
     width: 100%;
     justify-content: center;
 }
@@ -18,4 +22,8 @@ li {
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+li:hover {
+    background-color: blue;
 }

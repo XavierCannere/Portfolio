@@ -1,10 +1,15 @@
 import './Header.css';
 
 function Header() {
+
+    const moveTo = () => {
+        window.scrollTo(0, 0);
+    }
+
     return (
       <div className="Header">
         <ul>
-            <li>Accueil</li>
+            <li onClick={moveTo}>Accueil</li>
             <li>Expériences professionnelle</li>
             <li>Expériences scolaires</li>
             <li>Expériences personnelles</li>
