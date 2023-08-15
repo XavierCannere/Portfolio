@@ -1,9 +1,9 @@
 import './Content.css';
 
-function Content(props) {
+function Content({id}) {
     return (
-      <div className="Content">
-            <h1>{props.id}</h1>
+      <div id={id} className="Content">
+            <h1>{id}</h1>
       </div>
     );
   }
