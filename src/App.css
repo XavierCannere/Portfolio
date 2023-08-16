@@ -11,3 +11,96 @@
   background-color: rgb(63, 63, 63);
   flex-direction: column;
 }
+
+.Content {
+  display: flex;
+  padding: 20px 0;
+  margin: 20px 20%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.Header {
+  height: 6vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+}
+
+.headerUl {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.headerLi {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLi:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Comp1 {
+  margin: 20px 5%;
+}
+
+.size1 {
+  font-size: 24px;
+}
+
+.size2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.contentUl {
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.contentLi {
+  margin-top: 10px;
+}
+
+.cardsDiv {
+  display: flex;
+  margin: 20px auto;
+  width: 138%;
+  height: 50px;
+  background-color: black;
+  border-radius: 4px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsDiv:hover {
+  background-color: white;
+  color: black;
+}
+
+.cardsDiv.active {
+  background-color: white;
+  color: black;
+}
+
+.Comp2 {
+  margin: 20px 5%;
+}

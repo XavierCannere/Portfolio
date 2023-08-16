@@ -1,4 +1,4 @@
-import './Content.css';
+import './App.css';
 import Comp1 from './Comp1.js';
 import Comp2 from './Comp2.js';
 import Comp3 from './Comp3.js';
@@ -25,7 +25,7 @@ function Content({id}) {
 
     return (
       <div id={id} className="Content">
-            <h1>{id}</h1>
+            {/* <h1>{id}</h1> */}
             {componentToRender}
       </div>
     );
