@@ -1,12 +1,13 @@
 .Header {
     height: 6vh;
     width: 100%;
-    background-color: red;
+    background-color: black;
     display: flex;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+    color: white;
 }
 
 .headerUl {
@@ -25,5 +26,5 @@
 }
 
 .headerLi:hover {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.6);
 }

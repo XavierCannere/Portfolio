@@ -1,14 +1,34 @@
+import './Comp2.css';
+
 function Comp2() {
 
     return (
       <div className="Comp2">
-            <h2>Comp2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend tincidunt dui, ac posuere dolor venenatis eu. Vivamus quis scelerisque elit, in tincidunt arcu. Nulla facilisi. Vivamus euismod justo nec lectus ultricies, a consequat nulla venenatis. Suspendisse non lectus ut nisl commodo feugiat nec vel urna. Nullam fringilla tristique arcu, vel ultrices lorem suscipit a.</p>
+        <h2>Scolarité</h2>
+        <table>
+          <tr>
+            <th class='th1'>2020 - 2022</th>
+            <th class='th2'>DUT  Informatique</th>
+            <th class='th3'>Université Paul Sabatier</th>
+            <th class='th4'>31400, Toulouse</th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th class='th1'>2018 - 2020</th>
+            <th class='th2'>Bac STI2D - option SIN</th>
+            <th class='th3'>Lycée Jean Dupuy</th>
+            <th class='th4'>65000, Tarbes</th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th class='th1'>2017 - 2018</th>
+            <th class='th2'>Seconde générale</th>
+            <th class='th3'>Lycée Théophile Gautier</th>
+            <th class='th4'>65000, Tarbes</th>
+          </tr>
+        </table>
       </div>
     );
   }
